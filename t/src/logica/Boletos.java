@@ -1,7 +1,9 @@
 package logica;
 
+import logica.Boleto;
+
 public class Boletos {
-	char arreglo[];
+	Boleto arreglo[];
 	int tope;
 	
 }
