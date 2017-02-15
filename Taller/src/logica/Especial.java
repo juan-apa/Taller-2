@@ -2,7 +2,7 @@ package logica;
 
 import logica.Boleto;
 
-public class Especial extends Boleto{
+public class Especial extends Boleto implements Serializable{
 	double dtoAdicional;
 	
 	public Especial(int NROBOLETO, String LUGARPRECEDENCIA, int EDADPASAJERO, long NROCELULAR, double DTOADICIONAL) {
