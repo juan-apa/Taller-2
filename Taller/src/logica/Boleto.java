@@ -13,6 +13,7 @@ public class Boleto {
 		this.nroCelular = NROCELULAR;
 	}
 	
+	
 	public int getNroBoleto() {
 		return nroBoleto;
 	}
@@ -37,5 +38,13 @@ public class Boleto {
 	public void setNroCelular(long nroCelular) {
 		this.nroCelular = nroCelular;
 	}
+
+	@Override
+	public String toString() {
+		return "[nroBoleto=" + nroBoleto + ", lugarPrecedencia=" + lugarPrecedencia + ", edadPasajero="
+				+ edadPasajero + ", nroCelular=" + nroCelular + "]";
+	}
+	
+	
 	
 }
