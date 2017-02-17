@@ -3,10 +3,10 @@ package logica;
 import java.io.Serializable;
 
 public class Boleto implements Serializable{
-	int nroBoleto;
-	String lugarPrecedencia;
-	int edadPasajero;
-	long nroCelular;
+	private int nroBoleto;
+	private String lugarPrecedencia;
+	private int edadPasajero;
+	private long nroCelular;
 	
 	public Boleto(int NROBOLETO, String LUGARPRECEDENCIA, int EDADPASAJERO, long NROCELULAR){
 		this.nroBoleto = NROBOLETO;
