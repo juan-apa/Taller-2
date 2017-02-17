@@ -7,6 +7,7 @@ public class Boletos{
 	Boleto[] arreglo;
 	int tope;
 	
+	
 	/*Constructores*/
 	public Boletos(int cantidadAsientos) {
 		super();
@@ -60,7 +61,7 @@ public class Boletos{
 			devolver = devolver + this.arreglo[i].toString();
 			devolver = devolver + ", ";
 		}
-		
+
 		devolver = devolver + "[tope=" + tope + "]]";
 		return devolver;
 	}
